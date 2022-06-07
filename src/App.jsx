@@ -1,5 +1,7 @@
 import { Header } from "./components/Header";
+import { Post } from "./components/Post";
 import { Sidebar } from "./components/Sidebar";
+
 import { Wrapper } from "./styles/styles";
 
 export function App() {
@@ -8,7 +10,9 @@ export function App() {
       <Header />
       <Wrapper>
         <Sidebar />
-        <main>Main</main>
+        <main>
+          <Post />
+        </main>
       </Wrapper>
     </div>
 
