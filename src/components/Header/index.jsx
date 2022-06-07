@@ -1,11 +1,11 @@
 import { Container, Title } from "./styles";
 
-import logo from "../../assets/logo.svg"
+import igniteLogo from "../../assets/ignite-logo.svg"
 
 export function Header() {
    return (
       <Container>
-         <img src={logo} alt="Ignite Logo" />
+         <img src={igniteLogo} alt="Ignite Logo" />
          <Title>Ignite Feed </Title>
       </Container>
    )
