@@ -1,4 +1,4 @@
-import { Container, Header, Author, AuthorInfo, Content } from "./styles"
+import { Container, Header, Author, AuthorInfo, Content, Form } from "./styles"
 
 export function Post() {
    return (
@@ -27,6 +27,15 @@ export function Post() {
                <a href="#">#rocketseat</a>
             </p>
          </Content>
+         <Form>
+            <strong>Deixe seu feedback</strong>
+            <textarea
+               placholder="Deixe um comentário..."
+            />
+            <footer>
+               <button type="submit">Publicar</button>
+            </footer>
+         </Form>
       </Container>
    )
 }

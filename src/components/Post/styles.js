@@ -73,3 +73,57 @@ export const Content = styled.div`
       }
    }
 `;
+
+export const Form = styled.form`
+   width: 100%;
+   margin-top: 1.5rem;
+   padding-top: 1.5rem;
+   border-top: 1px solid var(--gray-600);
+
+   strong {
+      color: var(--gray-100);
+      line-height: 1.6;
+   }
+
+   textarea {
+      width: 100%;
+      height: 6rem;
+      background-color: var(--gray-900);
+      border: none;
+      resize: none;
+      margin-top: 1rem;
+      padding: 1rem;
+      border-radius: 8px;
+      color: var(--gray-100);
+      line-height: 1.4;
+   }
+
+   footer {
+      visibility: hidden;
+      max-height: 0;
+   }
+
+   &:focus-within footer {
+      visibility: visible;
+      max-height: none;
+   }
+
+
+   button {
+      padding: 1rem 1.5rem;
+      margin-top: 1rem;
+      border-radius: 8px;
+      border: none;
+      background-color: var(--green-500);
+      color: var(white);
+      font-weight: bold;
+      cursor: pointer;
+
+      transition: background-color 0.2s;
+
+
+      &:hover {
+         background-color: var(--green-300);
+      }
+   }
+`;

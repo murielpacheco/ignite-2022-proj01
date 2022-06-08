@@ -15,6 +15,11 @@ export const GlobalStyle = createGlobalStyle`
       --green-300: #00B37e;
 
    }
+
+   :focus {
+      outline: transparent;
+      box-shadow: 0 0 0 2px var(--green-500);
+   }
    
    * {
       margin: 0;
