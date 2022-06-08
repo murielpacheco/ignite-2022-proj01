@@ -1,3 +1,4 @@
+import Avatar from "../Avatar"
 import Comment from "../Comment"
 import { Container, Header, Author, AuthorInfo, Content, Form, CommentList } from "./styles"
 
@@ -6,7 +7,7 @@ export function Post() {
       <Container>
          <Header>
             <Author>
-               <img src="https://avatars.githubusercontent.com/u/84552970?v=4" />
+               <Avatar src="https://avatars.githubusercontent.com/u/84552970?v=4" />
                <AuthorInfo>
                   <strong>Muriel Damazio</strong>
                   <span>Web Developer</span>

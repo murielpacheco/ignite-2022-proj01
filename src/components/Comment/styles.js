@@ -9,6 +9,8 @@ export const Container = styled.div`
       width: 3rem;
       height: 3rem;
       border-radius: 8px;
+      border: none;
+      outline: none;
    }
 `;
 
