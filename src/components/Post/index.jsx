@@ -1,4 +1,5 @@
-import { Container, Header, Author, AuthorInfo, Content, Form } from "./styles"
+import Comment from "../Comment"
+import { Container, Header, Author, AuthorInfo, Content, Form, CommentList } from "./styles"
 
 export function Post() {
    return (
@@ -36,6 +37,11 @@ export function Post() {
                <button type="submit">Publicar</button>
             </footer>
          </Form>
+
+         <CommentList>
+            <Comment />
+            <Comment />
+         </CommentList>
       </Container>
    )
 }

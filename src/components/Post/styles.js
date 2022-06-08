@@ -127,3 +127,7 @@ export const Form = styled.form`
       }
    }
 `;
+
+export const CommentList = styled.div`
+   margin-top: 2rem;
+`;	
